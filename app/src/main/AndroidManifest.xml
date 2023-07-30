@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.algorithmvisualizer">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AlgorithmVisualizer"
+        tools:targetApi="31">
+        <activity
+            android:name=".dspackage.StackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".dspackage.QueueActivity"
+            android:exported="false" />
+        <activity
+            android:name=".dspackage.DequeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".dspackage.HeapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".dspackage.SegtreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sortpackage.BsortActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sortpackage.IsortActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sortpackage.SsortActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sortpackage.QsortActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sortpackage.MsortActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sortpackage.HsortActivity"
+            android:exported="false" />
+        <activity
+            android:name=".arraypackage.PrefixActivity"
+            android:exported="false" />
+        <activity
+            android:name=".arraypackage.BsearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".arraypackage.TsearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".dspackage.DsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".planepackage.PlaneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".graphpackage.GraphActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sortpackage.SortActivity"
+            android:exported="false" />
+        <activity
+            android:name=".planepackage.ConvexhullActivity"
+            android:exported="false" />
+        <activity
+            android:name=".planepackage.RotatingCalipusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".planepackage.MinCircleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".arraypackage.ArrayActivity"
+            android:exported="false"
+            android:label="@string/title_activity_d1"
+            android:theme="@style/Theme.AlgorithmVisualizer.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

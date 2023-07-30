@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="stackquery">
+        <item>push</item>
+        <item>pop</item>
+        <item>top</item>
+        <item>size</item>
+    </string-array>
+    <string-array name="queuequery">
+        <item>push</item>
+        <item>pop</item>
+        <item>front</item>
+        <item>size</item>
+    </string-array>
+    <string-array name="dequequery">
+        <item>push_front</item>
+        <item>push_back</item>
+        <item>pop_front</item>
+        <item>pop_back</item>
+        <item>front</item>
+        <item>back</item>
+        <item>size</item>
+    </string-array>
+</resources>

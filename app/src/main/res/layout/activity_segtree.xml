@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.cit.algorithmVisualize.GraphicView
+        android:id="@+id/prefix"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_weight="5"
+            android:layout_gravity="center"
+            android:text="인덱스 :"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"></TextView>
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_weight="5"
+            android:layout_gravity="center"
+            android:text="0"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/index"
+            android:gravity="center">
+
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_weight="5"
+            android:layout_gravity="center"
+            android:text="값 :"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"></TextView>
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_weight="5"
+            android:layout_gravity="center"
+            android:text="0"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/value"
+            android:gravity="center">
+
+        </EditText>
+    </LinearLayout>
+    <Button
+        android:text="배열 수정"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:id="@+id/change"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_weight="5"
+            android:layout_gravity="center"
+            android:text="쿼리 시작 :"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"></TextView>
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_weight="5"
+            android:layout_gravity="center"
+            android:text="0"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/qstart"
+            android:gravity="center">
+
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_weight="5"
+            android:layout_gravity="center"
+            android:text="쿼리 시작 :"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"></TextView>
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_weight="5"
+            android:layout_gravity="center"
+            android:text="0"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/qend"
+            android:gravity="center">
+
+        </EditText>
+    </LinearLayout>
+    <Button
+        android:text="쿼리"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:id="@+id/query"/>
+</LinearLayout>

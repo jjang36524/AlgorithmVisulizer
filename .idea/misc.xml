@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/dumbo/Documents/AlgorithmVisualizer/app/src/main/res/drawable/border.xml" value="0.1" />
+        <entry key="..\:/Users/dumbo/Documents/AlgorithmVisualizer/app/src/main/res/layout/activity_array.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/dumbo/Documents/AlgorithmVisualizer/app/src/main/res/layout/activity_bsearch.xml" value="0.25" />
+        <entry key="..\:/Users/dumbo/Documents/AlgorithmVisualizer/app/src/main/res/layout/activity_d1.xml" value="0.3234375" />
+        <entry key="..\:/Users/dumbo/Documents/AlgorithmVisualizer/app/src/main/res/layout/activity_d2.xml" value="0.18819655521783182" />
+        <entry key="..\:/Users/dumbo/Documents/AlgorithmVisualizer/app/src/main/res/layout/activity_deque.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/dumbo/Documents/AlgorithmVisualizer/app/src/main/res/layout/activity_ds.xml" value="0.3234375" />
+        <entry key="..\:/Users/dumbo/Documents/AlgorithmVisualizer/app/src/main/res/layout/activity_geometry.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/dumbo/Documents/AlgorithmVisualizer/app/src/main/res/layout/activity_graph.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/dumbo/Documents/AlgorithmVisualizer/app/src/main/res/layout/activity_heap.xml" value="0.31666666666666665" />
+        <entry key="..\:/Users/dumbo/Documents/AlgorithmVisualizer/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/dumbo/Documents/AlgorithmVisualizer/app/src/main/res/layout/activity_main2.xml" value="0.30885416666666665" />
+        <entry key="..\:/Users/dumbo/Documents/AlgorithmVisualizer/app/src/main/res/layout/activity_plane.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/dumbo/Documents/AlgorithmVisualizer/app/src/main/res/layout/activity_prefix.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/dumbo/Documents/AlgorithmVisualizer/app/src/main/res/layout/activity_queue.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/dumbo/Documents/AlgorithmVisualizer/app/src/main/res/layout/activity_segtree.xml" value="0.3859375" />
+        <entry key="..\:/Users/dumbo/Documents/AlgorithmVisualizer/app/src/main/res/layout/activity_sort.xml" value="0.17300724637681159" />
+        <entry key="..\:/Users/dumbo/Documents/AlgorithmVisualizer/app/src/main/res/layout/activity_sorts.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/dumbo/Documents/AlgorithmVisualizer/app/src/main/res/layout/activity_stack.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/dumbo/Documents/AlgorithmVisualizer/app/src/main/res/layout/activity_tsearch.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/dumbo/Documents/AlgorithmVisualizer/app/src/main/res/layout/content_d1.xml" value="0.2015625" />
+        <entry key="..\:/Users/dumbo/Documents/AlgorithmVisualizer/app/src/main/res/layout/fragment_first.xml" value="0.3234375" />
+        <entry key="..\:/Users/dumbo/Documents/AlgorithmVisualizer/app/src/main/res/layout/fragment_second.xml" value="0.3234375" />
+        <entry key="..\:/Users/dumbo/Documents/AlgorithmVisualizer/app/src/main/res/layout/listnode.xml" value="0.5" />
+        <entry key="..\:/Users/dumbo/Documents/AlgorithmVisualizer/app/src/main/res/layout/query_layout.xml" value="0.15476190476190477" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
