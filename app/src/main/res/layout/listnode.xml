@@ -15,7 +15,7 @@
             android:layout_width="260dp"
             android:layout_height="40dp"
             android:layout_weight="5"
-            android:background="#ffffdf"
+            android:background="#ffffbf"
             android:layout_gravity="center"
             android:text="컨벡스 헐"
             android:textSize="25dp"
@@ -24,11 +24,11 @@
             android:gravity="center"></TextView>
         <TextView
             android:layout_width="260dp"
-            android:layout_height="50dp"
+            android:layout_height="60dp"
             android:layout_weight="5"
-            android:background="#ffffdf"
+            android:background="#ffffbf"
             android:text="구데기 기하 알고리즘구데기 기하 알고리즘구데기 기하 알고리즘"
-            android:textSize="15dp"
+            android:textSize="18dp"
             android:id="@+id/desc"
 
             android:padding="10px"></TextView>
@@ -37,13 +37,14 @@
 
     <Button
         android:id="@+id/execute"
-        android:layout_width="wrap_content"
-        android:layout_height="90dp"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
         android:layout_gravity="center"
         android:layout_weight="1"
         android:background="#00ff00"
         android:text="실행"
-        app:backgroundTint="#4CAF50">
+        android:textColor="@color/black"
+        app:backgroundTint="#3fbf3f">
 
     </Button>
 </LinearLayout>

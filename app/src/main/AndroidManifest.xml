@@ -53,9 +53,6 @@
             android:name=".arraypackage.BsearchActivity"
             android:exported="false" />
         <activity
-            android:name=".arraypackage.TsearchActivity"
-            android:exported="false" />
-        <activity
             android:name=".dspackage.DsActivity"
             android:exported="false" />
         <activity

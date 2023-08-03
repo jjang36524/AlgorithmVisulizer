@@ -16,12 +16,12 @@
         android:layout_height="wrap_content"
         >
         <TextView
-            android:layout_width="100dp"
-            android:layout_height="40dp"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
             android:layout_weight="5"
             android:layout_gravity="center"
             android:text="인덱스 :"
-            android:textSize="20dp"
+            android:textSize="30dp"
             android:textStyle="bold"
             android:gravity="center"></TextView>
         <EditText
@@ -43,12 +43,12 @@
         android:layout_height="wrap_content"
         >
         <TextView
-            android:layout_width="100dp"
-            android:layout_height="40dp"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
             android:layout_weight="5"
             android:layout_gravity="center"
             android:text="값 :"
-            android:textSize="20dp"
+            android:textSize="30dp"
             android:textStyle="bold"
             android:gravity="center"></TextView>
         <EditText
@@ -67,19 +67,23 @@
     <Button
         android:text="배열 수정"
         android:layout_width="140dp"
-        android:layout_height="60dp"
+        android:layout_height="70dp"
+        android:layout_margin="3dp"
+        app:backgroundTint="#3fff3f"
+        android:textColor="#000000"
+        android:textSize="20dp"
         android:id="@+id/change"/>
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         >
         <TextView
-            android:layout_width="100dp"
-            android:layout_height="40dp"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
             android:layout_weight="5"
             android:layout_gravity="center"
-            android:text="쿼리 시작 :"
-            android:textSize="20dp"
+            android:text="쿼리 시작"
+            android:textSize="30dp"
             android:textStyle="bold"
             android:gravity="center"></TextView>
         <EditText
@@ -100,12 +104,12 @@
         android:layout_height="wrap_content"
         >
         <TextView
-            android:layout_width="100dp"
-            android:layout_height="40dp"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
             android:layout_weight="5"
             android:layout_gravity="center"
-            android:text="쿼리 끝 :"
-            android:textSize="20dp"
+            android:text="쿼리 끝"
+            android:textSize="30dp"
             android:textStyle="bold"
             android:gravity="center"></TextView>
         <EditText
@@ -124,6 +128,10 @@
     <Button
         android:text="쿼리"
         android:layout_width="140dp"
-        android:layout_height="60dp"
+        android:layout_height="70dp"
+        android:layout_margin="3dp"
+        app:backgroundTint="#7f7fff"
+        android:textColor="#000000"
+        android:textSize="20dp"
         android:id="@+id/query"/>
 </LinearLayout>

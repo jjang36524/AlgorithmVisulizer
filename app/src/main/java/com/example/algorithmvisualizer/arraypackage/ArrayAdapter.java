@@ -42,9 +42,6 @@ public class ArrayAdapter extends MyAdapter {
                         intent = new Intent(mContext, BsearchActivity.class);
                         break;
                     case 1:
-                        intent = new Intent(mContext, TsearchActivity.class);
-                        break;
-                    case 2:
                         intent = new Intent(mContext, PrefixActivity.class);
                         break;
                     default:

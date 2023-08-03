@@ -11,9 +11,6 @@ import android.widget.TextView;
 import com.example.algorithmvisualizer.ListItem;
 import com.example.algorithmvisualizer.MyAdapter;
 import com.example.algorithmvisualizer.R;
-import com.example.algorithmvisualizer.arraypackage.BsearchActivity;
-import com.example.algorithmvisualizer.arraypackage.PrefixActivity;
-import com.example.algorithmvisualizer.arraypackage.TsearchActivity;
 
 import java.util.ArrayList;
 

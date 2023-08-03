@@ -105,11 +105,12 @@ public class SegtreeActivity extends Activity {
         {
             int j;
             for(j=(1<<(i-1));j<(1<<i);j++) {
-                graph.add_vert(new Point((((j - (1 << (i - 1))) * 2000 + 1000) / (1 << i)), i * 140 + 50));
+                graph.add_vert(new Point((((j - (1 << (i - 1))) * 2000 + 1000) / (1 << i))+40, i * 140 + 50));
                 if(i!=1)
                     graph.add_edge(new Edge(j/2,j,0,j-2), android.R.color.holo_blue_dark);
             }
         }
+        graph.clearColor();
         graph.setVertActive(0,false);
         STree seg=new STree(8,graph);
         Button change=findViewById(R.id.change);
